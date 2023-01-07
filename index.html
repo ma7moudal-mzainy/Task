@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/master.css">
+    <title>Task</title>
+    <script></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="clock-container">
+        <div class="current-time">Current Time</div>
+    </div>
+
+    <div class="form-container">
+        <form>
+            <label for="hour">Hour:</label>
+            <input type="number" name="hour" min="1" max="12">
+            <label for="minute">Minute:</label>
+            <input type="number" name="minute" min="0" max="59">
+            <label for="period">AM/PM:</label>
+            <select name="period">
+                <option value="am">AM</option>
+                <option value="pm">PM</option>
+            </select>
+            <button type="submit">Add Alarm</button>
+        </form>
+    </div>
+
+    <div class="alarms-container">
+        <h2>Alarms</h2>
+        <ul class="alarms-list">
+            <!-- Alarms go here -->
+        </ul>
+    </div>
+
+    <audio controls autoplay muted>
+        <source src="horse.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="alarm">
+        <div class="alarm-time"></div>
+        <div class="alarm-actions">
+            <button class="btn snooze">Snooze</button>
+            <button class="btn dismiss">Dismiss</button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

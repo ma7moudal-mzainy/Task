@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  #clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 4em;
+    font-weight: bold;
+    color: rgb(3, 0, 0);
+  }
+  
+  .alarm {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    color: rgb(217, 20, 20);
+  }
+  
+  .alarm-time {
+    flex: 1
+  }  
